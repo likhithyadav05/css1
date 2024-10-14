@@ -1,7 +1,5 @@
 body{
     background-color: yellow;
-}
-*{
     padding: 0;
     margin: 0;
 }
@@ -9,6 +7,7 @@ hr{
     margin: 8px 0px;
 }
 .parent{
+    box-sizing: border-box;
     background-color: orange;
     padding: 16px;
 }
