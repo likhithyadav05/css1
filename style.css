@@ -19,14 +19,14 @@ hr{
     width: 100vw;
     background-color: aqua;
     padding: 16px;
-    margin: 100px 0px 0px;
+    /* margin: 100px 0px 0px; */
+    box-sizing: border-box;
 }
 .container-child{
     background-color: red;
     height: 50px;
 }
-.container-child.new-child{
-    background-color: red;
+.new-child{
     /* box-sizing: content-box; */
     width: 90%;
 }
